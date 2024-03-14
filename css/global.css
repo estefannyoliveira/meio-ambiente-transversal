@@ -14,8 +14,7 @@
     --secondary-bg: rgba(171, 186, 187, 0.3);
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
-    ;
-
+    --footer-bg: rgba(73, 105, 101, 0.3);
 }
 
 * {
@@ -43,6 +42,14 @@ img {
     object-fit: cover;
 }
 
-p{
+p {
     word-break: auto-phrase;
+}
+
+.footer {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--footer-bg);
+    text-align: center;
 }
