@@ -13,7 +13,6 @@
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -23,15 +22,51 @@
     text-transform: uppercase;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-list-control {
+    display: none;
+}
+
 .nav-list {
     display: flex;
     gap: 28px;
-    flex-wrap: wrap;
-
 }
 
 .nav-list a {
     color: var(--secondary);
     font-size: 20px;
     font-weight: 600;
+}
+
+@media(max-width:800px) {
+    .nav-list-control {
+        display: block;
+        z-index: 3;
+    }
+
+    .nav-list {
+        position: absolute;
+        display: block;
+        padding: 20px 40px;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        text-align: right;
+        background-color: aliceblue;
+        z-index: 2;
+    }
+
+    .nav-list li {
+        margin-bottom: 20px;
+    }
+
+    .nav-list li:first-of-type {
+        margin-top: 60px;
+    }
 }

@@ -25,6 +25,8 @@
 
 body {
     font-family: var(--primary-font);
+    height: 100%;
+    position: relative;
 }
 
 a {
