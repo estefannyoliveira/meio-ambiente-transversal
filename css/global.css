@@ -50,8 +50,7 @@ p {
 
 .footer {
     color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     background: var(--footer-bg);
     text-align: center;
 }

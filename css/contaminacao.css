@@ -21,3 +21,10 @@
 .contaminacao img{
     margin-bottom: 20px;
 }
+
+@media(max-width:800px){
+    .contaminacao {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+}
