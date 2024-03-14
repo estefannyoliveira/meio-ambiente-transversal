@@ -1,0 +1,43 @@
+.acoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.acoes h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 32px;
+}
+
+.acoes p {
+    grid-row: 2 / 4;
+    grid-column: 2;
+}
+
+.card-item {
+    margin-bottom: 16px;
+}
+
+.card-item img {
+    margin-bottom: 4px;
+}
+
+.acoes span {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .acoes {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .acoes p {
+        grid-row: auto;
+        grid-column: 1 / -1;
+    }
+}

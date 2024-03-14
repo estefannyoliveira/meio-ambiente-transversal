@@ -1,0 +1,14 @@
+.intro{
+    max-width: 1400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.intro h2{
+    color: var(--secondary);
+    margin-bottom: 16px;
+}
+.intro p{
+    color: #000;
+}

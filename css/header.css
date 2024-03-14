@@ -1,0 +1,33 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header-content {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+
+}
+
+.nav-list {
+    font-size: 20px;
+    font-weight: 600;
+}

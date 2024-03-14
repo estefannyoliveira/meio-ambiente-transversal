@@ -1,0 +1,35 @@
+.title-bg {
+    height: 70vh;
+    background: url("../img/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    font-family: var(--secondary-font);
+    text-align: center;
+    color: #fff;
+}
+
+.title span {
+    font: 600 36px/1.1 "Montserrat", sans-serif;
+    display: block;
+    margin-bottom: 12px;
+
+}
+
+.title h1 {
+    font: 700 48px/1.1 "Montserrat", sans-serif;
+}
+
+@media(max-width:800px) {
+    .title span {
+        font-size: 26px;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+}
