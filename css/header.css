@@ -59,9 +59,10 @@
     }
 
     .nav-list {
-        visibility: hidden;
         display: block;
         position: absolute;
+        visibility: hidden;
+        opacity: 0;
         overflow-x: hidden;
         padding: 20px 40px;
         top: 0;
@@ -69,14 +70,14 @@
         width: 60%;
         height: 100%;
         text-align: right;
-        transition: all .4s;
+        transition: opacity .2s ease;
         background-color: var(--primary);
         z-index: 2;
     }
 
     .nav-list.ativo {
         visibility: visible;
-
+        opacity: 1;
     }
 
     .nav-list li {
