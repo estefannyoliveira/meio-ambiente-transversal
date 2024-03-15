@@ -3,8 +3,8 @@
 }
 
 .contaminacao {
-  padding-top: 80px;
-  padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 .contaminacao h2 {
@@ -12,19 +12,19 @@
     margin-bottom: 16px;
 }
 
-.contaminacao p{
+.contaminacao p {
     line-height: 1.6;
     margin-bottom: 20px;
 
 }
 
-.contaminacao img{
+.contaminacao img {
     margin-bottom: 20px;
 }
 
-@media(max-width:800px){
+@media(max-width:800px) {
     .contaminacao {
-        padding-top: 40px;
+        padding-top: 85px;
         padding-bottom: 40px;
-      }
+    }
 }

@@ -33,6 +33,7 @@
 
 @media (max-width: 800px) {
     .acoes {
+        padding-top: 85px;
         grid-template-columns: 1fr 1fr;
         gap: 12px;
     }
